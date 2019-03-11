@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><student lastname="Igamov">
+  <subject mark="5" title="sub 1"/>
+  <subject mark="4" title="sub 2"/>
+  <subject mark="3" title="sub 3"/>
+  <subject mark="4" title="sub 4"/>
+  <subject mark="5" title="sub 5"/>
+  <average>4.2</average>
+</student>

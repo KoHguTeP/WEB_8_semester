@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE student SYSTEM "stud.dtd">
+<student lastname="Igamov">
+  <subject title="sub 1" mark="5" />
+  <subject title="sub 2" mark="4" />
+  <subject title="sub 3" mark="3" />
+  <subject title="sub 4" mark="4" />
+  <subject title="sub 5" mark="5" />
+  <average>4</average>
+</student>
