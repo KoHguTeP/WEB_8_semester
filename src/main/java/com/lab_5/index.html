@@ -14,22 +14,35 @@
         <p>Первое значение</p>
         <input type="text" pattern="\d+" id="valFirst" placeholder="Введите число" onkeyup="check(this)" onchange="check(this)">
         <p>Выбор действия</p>
-        <label class="container">+
-            <input type="radio" name="radio" id="sum" checked="checked">
-            <span class="checkmark"></span>
-        </label>
-        <label class="container">-
-            <input type="radio" name="radio" id="sub">
-            <span class="checkmark"></span>
-        </label>
-        <label class="container">*
-            <input type="radio" name="radio" id="mul">
-            <span class="checkmark"></span>
-        </label>
-        <label class="container">/
-            <input type="radio" name="radio" id="del">
-            <span class="checkmark"></span>
-        </label>
+        <table>
+            <tr>
+                <td>
+                    <label class="container">+
+                        <input type="radio" name="radio" id="sum" checked="checked">
+                        <span class="checkmark"></span>
+                    </label>
+                </td>
+            <td>
+                <label class="container">-
+                    <input type="radio" name="radio" id="sub">
+                    <span class="checkmark"></span>
+                </label>
+            </td>
+                <td>
+                    <label class="container">*
+                        <input type="radio" name="radio" id="mul">
+                        <span class="checkmark"></span>
+                    </label>
+                </td>
+                <td>
+                    <label class="container">/
+                        <input type="radio" name="radio" id="del">
+                        <span class="checkmark"></span>
+                    </label>
+                </td>
+            </tr>
+        </table>
+        <p2>____</p2>
         <p>Второе значение</p>
         <input type="text" pattern="\d+" id="valSecond" placeholder="Введите число">
         <input type="submit" value="Calculate" onClick="calculate()">
